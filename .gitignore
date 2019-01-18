@@ -20,7 +20,8 @@ core
 # CVS default ignores end
 *.pyc
 # OSX system files
-.DS_store
+.DS_Store
+._.DS_Store
 
 /doc/_build/
 
@@ -115,3 +116,6 @@ core
 
 /verification/*/tr_run.*
 
+/utils/python/MITgcmutils/MITgcmutils.egg-info/
+/utils/python/MITgcmutils/build/
+/utils/python/MITgcmutils/dist/
